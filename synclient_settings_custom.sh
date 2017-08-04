@@ -1,12 +1,19 @@
 #!/bin/bash
 synclient VertScrollDelta=60
 synclient HorizScrollDelta=60
-#synclient MinSpeed=2
+synclient PalmDetect=1
+#synclient ClickTime=5
+#synclient FingerHigh=12
+#synclient FingerLow=10
+#synclient MaxTapMove=20
+#synclient MaxTapTime=140
+synclient TapButton1=1
+synclient TapButton2=3
+synclient TapButton3=2
+synclient ClickFinger1=1
+synclient ClickFinger2=3
+synclient ClickFinger3=2
+#synclient SingleTapTimeout=140
+#synclient SingleTapTimeout=0
 synclient MinSpeed=1
 synclient MaxSpeed=5
-synclient AccelFactor=0.075
-#synclient SingleTapTimeout=50
-synclient SingleTapTimeout=0
-synclient PalmDetect=1
-#synclient ClickTime=0
-
